@@ -1,0 +1,1790 @@
+                         Chronologic VCS (TM)
+       Version X-2025.06-SP1_Full64 -- Tue Oct  6 03:12:08 2026
+
+                    Copyright (c) 1991 - 2025 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+   or distribution of this software is strictly prohibited.  Licensed Products
+     communicate with Synopsys servers for the purpose of providing software
+    updates, detecting software piracy and verifying that customers are using
+    Licensed Products in conformity with the applicable License Key for such
+  Licensed Products. Synopsys will use information gathered in connection with
+    this process to deliver software updates and pursue software pirates and
+                                   infringers.
+
+ Inclusivity & Diversity - Visit SolvNetPlus to read the "Synopsys Statement on
+            Inclusivity and Diversity" (Refer to article 000036315 at
+                        https://solvnetplus.synopsys.com)
+
+Parsing design file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm.sv'
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_version_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_global_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/snps_macros.svp'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_message_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_phase_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_object_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_printer_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_tlm_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_sequence_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_callback_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_reg_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/macros/uvm_deprecated_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dpi/uvm_hdl.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dpi/uvm_svcmd_dpi.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dpi/uvm_regex.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dpi/uvm_dpi.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_coreservice.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_version.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_object_globals.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_misc.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_object.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_pool.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_queue.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_factory.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_registry.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_spell_chkr.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_resource.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_resource_specializations.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_resource_db.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_config_db.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_printer.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_comparer.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_packer.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_links.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_tr_database.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_tr_stream.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_recorder.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_event_callback.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_event.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_barrier.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_callback.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_macros.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_callback.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_message.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_catcher.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_handler.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_object.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_transaction.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_phase.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_domain.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_bottomup_phase.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_topdown_phase.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_task_phase.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_common_phases.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_runtime_phases.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_component.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_component.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_heartbeat.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_globals.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_cmdline_processor.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_traversal.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_base.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dap/uvm_set_get_dap_base.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dap/uvm_simple_lock_dap.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dap/uvm_get_to_lock_dap.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dap/uvm_set_before_get_dap.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dap/uvm_dap.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_sqr_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_port_base.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_imps.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_ports.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_exports.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_analysis_port.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm_fifo_base.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm_fifos.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm_req_rsp.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_sqr_connections.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm1/uvm_tlm.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_pair.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_policies.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_in_order_comparator.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_algorithmic_comparator.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_random_stimulus.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_subscriber.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_monitor.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_driver.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_push_driver.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_scoreboard.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_agent.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_env.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_test.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/comps/uvm_comps.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_sequence_item.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_sequencer_base.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_sequencer_analysis_fifo.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_sequencer_param_base.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_sequencer.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_push_sequencer.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_sequence_base.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_sequence.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_sequence_library.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_sequence_builtin.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/seq/uvm_seq.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2_defines.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2_time.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2_generic_payload.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2_ifs.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2_imps.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2_ports.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2_exports.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2_sockets_base.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2_sockets.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/tlm2/uvm_tlm2.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_item.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_adapter.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_predictor.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_sequence.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_cbs.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_backdoor.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_field.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_vreg_field.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_indirect.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_fifo.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_file.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_mem_mam.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_vreg.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_mem.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_map.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_block.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/sequences/uvm_reg_hw_reset_seq.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/sequences/uvm_reg_bit_bash_seq.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/sequences/uvm_mem_walk_seq.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/sequences/uvm_mem_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/sequences/uvm_reg_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_shared_access_seq.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_built_in_seq.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/sequences/uvm_reg_mem_hdl_paths_seq.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/snps_uvm_reg_bank.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/reg/uvm_reg_model.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/vcs/vcs_uvm_alt.sv'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm_pkg.sv'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm.sv'.
+Parsing included file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/vcs/snps_reg.svh'.
+Back to file '/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/uvm.sv'.
+Parsing design file 'design.sv'
+Parsing included file 'dsi_reg_block.sv'.
+Back to file 'design.sv'.
+Parsing included file 'dsi_clk_gen.sv'.
+Back to file 'design.sv'.
+Parsing included file 'line_fifo.sv'.
+Back to file 'design.sv'.
+Parsing included file 'ecc_gen.sv'.
+Back to file 'design.sv'.
+Parsing included file 'crc_gen.sv'.
+Back to file 'design.sv'.
+Parsing included file 'packetizer.sv'.
+Back to file 'design.sv'.
+Parsing included file 'lane_manager.sv'.
+Back to file 'design.sv'.
+Parsing design file 'testbench.sv'
+
+Note-[SV-LCM-PPWI] Package previously wildcard imported
+testbench.sv, 36
+$unit
+  Package 'uvm_pkg' already wildcard imported. 
+  Ignoring uvm_pkg::*
+  See the SystemVerilog LRM(1800-2005), section 19.2.1.
+
+Parsing included file 'ahb_inf.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_dc_interface.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_ppi_inf.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ahb_seq_item.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ahb_seqr.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ahb_driver.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ahb_mon.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ahb_agent.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ahb_seq.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_dc_seq_item.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_dc_sequencer.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_dc_drv.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_dc_monitor.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_dc_agent.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_dc_sequence.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_ppi_seq_item.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_ppi_seqr.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_ppi_monitor.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_ppi_agent.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'MY_scoreboard.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ahb_cov.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'dc_cov.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'ppi_cov.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'environment.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_dsi_top_seqr.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'mipi_dsi_top_seq.sv'.
+Back to file 'testbench.sv'.
+Parsing included file 'test.sv'.
+Back to file 'testbench.sv'.
+Top Level Modules:
+       tb_top
+TimeScale is 1 ns / 1 ns
+Starting vcs inline pass...
+8 modules and 0 UDP read.
+recompiling package vcs_paramclassrepository
+recompiling package _vcs_DPI_package
+recompiling package uvm_pkg
+recompiling module dsi
+recompiling module mipi_ahb_inf
+recompiling module dc_inf
+recompiling module mipi_ppi_inf
+recompiling module tb_top
+All of 8 modules done
+rm -f _cuarc*.so _csrc*.so pre_vcsobj_*.so share_vcsobj_*.so
+/bin/sh: line 1: cmp: command not found
+g++ -w  -pipe -fPIC -DVCS -O -I/apps/vcsmx/vcs/X-2025.06-SP1/include     -c /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/dpi/uvm_dpi.cc
+gcc  -w  -pipe -fPIC -DVCS -O -I/apps/vcsmx/vcs/X-2025.06-SP1/include    -fPIC -c -o uM9F1_0x2aB.o uM9F1_0x2aB.c
+if [ -x ../simv ]; then chmod a-x ../simv; fi
+g++  -o ../simv      -rdynamic  -Wl,-rpath='$ORIGIN'/simv.daidir -Wl,-rpath=./simv.daidir -Wl,-rpath=/apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib -L/apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib  -Wl,-rpath-link=./  uvm_dpi.o   objs/amcQw_d.o  _346_archive_1.so  SIM_l.o   uM9F1_0x2aB.o   rmapats_mop.o rmapats.o rmar.o rmar_nd.o  rmar_llvm_0_1.o rmar_llvm_0_0.o            -lvirsim -lerrorinf -lsnpsmalloc -lvfs      -lvcsnew -ldistsimclient -lsimprofile -luclinative /apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib/vcs_tls.o   -Wl,-whole-archive  -lvcsucli    -Wl,-no-whole-archive      ./../simv.daidir/vc_hdrs.o    /apps/vcsmx/vcs/X-2025.06-SP1/linux64/lib/vcs_save_restore_new.o -ldl  -lc -lm -lpthread -ldl 
+../simv up to date
+CPU time: 16.869 seconds to compile + .689 seconds to elab + 1.311 seconds to link
+Chronologic VCS simulator copyright 1991-2025
+Contains Synopsys proprietary information.
+Compiler version X-2025.06-SP1_Full64; Runtime version X-2025.06-SP1_Full64;  Oct  6 03:12 2026
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh(407) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test mipi_dsi_test...
+UVM_INFO MY_scoreboard.sv(43) @ 0: uvm_test_top.env.sbd [SB] MIPI DSI scoreboard created
+ahb_coverage=6.67f%
+UVM_INFO ahb_mon.sv(35) @ 55: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=40000000 DATA=00000000
+ahb_coverage=6.67f%
+UVM_INFO ahb_mon.sv(35) @ 65: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=40000000 DATA=00000000
+ahb_coverage=13.33f%
+UVM_INFO ahb_mon.sv(35) @ 85: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=40000004 DATA=00000000
+ahb_coverage=13.33f%
+UVM_INFO ahb_mon.sv(35) @ 95: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=40000004 DATA=00000029
+ahb_coverage=20.00f%
+UVM_INFO ahb_mon.sv(35) @ 115: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=40000008 DATA=00000000
+ahb_coverage=20.00f%
+UVM_INFO ahb_mon.sv(35) @ 125: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=40000008 DATA=00000000
+ahb_coverage=36.67f%
+UVM_INFO ahb_mon.sv(35) @ 145: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=4000000c DATA=00000000
+ahb_coverage=46.67f%
+UVM_INFO ahb_mon.sv(35) @ 155: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=4000000c DATA=00000003
+ahb_coverage=53.33f%
+UVM_INFO ahb_mon.sv(35) @ 175: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=40000010 DATA=00000000
+ahb_coverage=53.33f%
+UVM_INFO ahb_mon.sv(35) @ 185: uvm_test_top.env.ahb_agent.mon [AHB_MON] WRITE ADDR=40000010 DATA=00000001
+UVM_INFO mipi_dc_monitor.sv(39) @ 13165: uvm_test_top.env.dc_agent.mon [DC_MON] DC transaction captured: 1280 pixels
+UVM_INFO dc_cov.sv(48) @ 13165: uvm_test_top.env.dc_cov [DC_COV] DC coverage transaction: valid=x pixels=1280
+UVM_INFO MY_scoreboard.sv(52) @ 13165: uvm_test_top.env.sbd [SB_DC] DC monitor received 1280 pixels
+UVM_INFO MY_scoreboard.sv(63) @ 13165: uvm_test_top.env.sbd [SB_DC] Expected pixel queue size = 1280
+********** No of lanes selected : 3 **********
+ppi_lane0_en=0;ppi_lane1_en=0;ppi_lane2_en=0;ppi_lane3_en=0;
+UVM_INFO MY_scoreboard.sv(191) @ 17067: uvm_test_top.env.sbd [SB] Received HEADER = 14 00 00 00
+UVM_INFO MY_scoreboard.sv(209) @ 17067: uvm_test_top.env.sbd [SB] Received CRC = 8e 17
+UVM_INFO MY_scoreboard.sv(236) @ 17067: uvm_test_top.env.sbd [SB] Received payload contains 1280 pixels
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[0] Expected=03703e Actual=03703e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1] Expected=d032bd Actual=d032bd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[2] Expected=e7eeca Actual=e7eeca PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[3] Expected=5929e9 Actual=5929e9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[4] Expected=7f0842 Actual=7f0842 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[5] Expected=4deec6 Actual=4deec6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[6] Expected=92557f Actual=92557f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[7] Expected=0a7cd6 Actual=0a7cd6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[8] Expected=3dca32 Actual=3dca32 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[9] Expected=57b542 Actual=57b542 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[10] Expected=0073ce Actual=0073ce PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[11] Expected=56578a Actual=56578a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[12] Expected=be6200 Actual=be6200 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[13] Expected=528629 Actual=528629 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[14] Expected=504994 Actual=504994 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[15] Expected=729e5a Actual=729e5a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[16] Expected=e4ec33 Actual=e4ec33 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[17] Expected=67933b Actual=67933b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[18] Expected=10835f Actual=10835f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[19] Expected=f9ffd7 Actual=f9ffd7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[20] Expected=5a823f Actual=5a823f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[21] Expected=cb58cd Actual=cb58cd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[22] Expected=6b0bb9 Actual=6b0bb9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[23] Expected=392d60 Actual=392d60 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[24] Expected=fdeda3 Actual=fdeda3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[25] Expected=d65a72 Actual=d65a72 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[26] Expected=e44289 Actual=e44289 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[27] Expected=819c6b Actual=819c6b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[28] Expected=886a8a Actual=886a8a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[29] Expected=db7293 Actual=db7293 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[30] Expected=31a7d4 Actual=31a7d4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[31] Expected=b438ca Actual=b438ca PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[32] Expected=4095fd Actual=4095fd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[33] Expected=0ed858 Actual=0ed858 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[34] Expected=e5e506 Actual=e5e506 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[35] Expected=aee967 Actual=aee967 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[36] Expected=5b77b8 Actual=5b77b8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[37] Expected=43a286 Actual=43a286 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[38] Expected=34c3ed Actual=34c3ed PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[39] Expected=6b52d7 Actual=6b52d7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[40] Expected=fdf8b9 Actual=fdf8b9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[41] Expected=1e6a77 Actual=1e6a77 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[42] Expected=77e8ce Actual=77e8ce PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[43] Expected=7c129d Actual=7c129d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[44] Expected=daa486 Actual=daa486 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[45] Expected=42a4fe Actual=42a4fe PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[46] Expected=23828b Actual=23828b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[47] Expected=867f55 Actual=867f55 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[48] Expected=7c3079 Actual=7c3079 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[49] Expected=ae4d13 Actual=ae4d13 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[50] Expected=64ffb1 Actual=64ffb1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[51] Expected=e0d7ae Actual=e0d7ae PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[52] Expected=f9a56b Actual=f9a56b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[53] Expected=243917 Actual=243917 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[54] Expected=67fb9c Actual=67fb9c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[55] Expected=7a3e5e Actual=7a3e5e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[56] Expected=1002b3 Actual=1002b3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[57] Expected=213a9b Actual=213a9b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[58] Expected=37bcd4 Actual=37bcd4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[59] Expected=f96ae1 Actual=f96ae1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[60] Expected=fc9767 Actual=fc9767 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[61] Expected=a97fd0 Actual=a97fd0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[62] Expected=e859ad Actual=e859ad PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[63] Expected=a072d5 Actual=a072d5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[64] Expected=40cbc0 Actual=40cbc0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[65] Expected=bf7cb8 Actual=bf7cb8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[66] Expected=6f2cb2 Actual=6f2cb2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[67] Expected=12e3c5 Actual=12e3c5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[68] Expected=bc4893 Actual=bc4893 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[69] Expected=fcd4e1 Actual=fcd4e1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[70] Expected=78f21a Actual=78f21a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[71] Expected=1f847b Actual=1f847b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[72] Expected=16fc27 Actual=16fc27 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[73] Expected=08d04c Actual=08d04c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[74] Expected=02f4c3 Actual=02f4c3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[75] Expected=0c6bd0 Actual=0c6bd0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[76] Expected=27a85a Actual=27a85a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[77] Expected=f74612 Actual=f74612 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[78] Expected=932692 Actual=932692 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[79] Expected=2c8c4a Actual=2c8c4a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[80] Expected=bacb03 Actual=bacb03 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[81] Expected=53886e Actual=53886e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[82] Expected=d55649 Actual=d55649 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[83] Expected=7b47f1 Actual=7b47f1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[84] Expected=2ca438 Actual=2ca438 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[85] Expected=d52be9 Actual=d52be9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[86] Expected=ab342d Actual=ab342d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[87] Expected=785863 Actual=785863 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[88] Expected=e1d4ab Actual=e1d4ab PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[89] Expected=cc8906 Actual=cc8906 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[90] Expected=b2f814 Actual=b2f814 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[91] Expected=8a90b4 Actual=8a90b4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[92] Expected=44e5e0 Actual=44e5e0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[93] Expected=329d84 Actual=329d84 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[94] Expected=5f2c2a Actual=5f2c2a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[95] Expected=b5e686 Actual=b5e686 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[96] Expected=71ed1a Actual=71ed1a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[97] Expected=84f40f Actual=84f40f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[98] Expected=6ac5bc Actual=6ac5bc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[99] Expected=13d986 Actual=13d986 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[100] Expected=5327bf Actual=5327bf PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[101] Expected=e0e3a2 Actual=e0e3a2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[102] Expected=bde168 Actual=bde168 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[103] Expected=839299 Actual=839299 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[104] Expected=8e52d0 Actual=8e52d0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[105] Expected=59c920 Actual=59c920 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[106] Expected=2deb5c Actual=2deb5c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[107] Expected=43f2d9 Actual=43f2d9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[108] Expected=0e6d41 Actual=0e6d41 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[109] Expected=721fc1 Actual=721fc1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[110] Expected=51b688 Actual=51b688 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[111] Expected=2ff28b Actual=2ff28b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[112] Expected=e91a28 Actual=e91a28 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[113] Expected=9f7164 Actual=9f7164 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[114] Expected=4dce86 Actual=4dce86 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[115] Expected=064f5f Actual=064f5f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[116] Expected=4d3444 Actual=4d3444 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[117] Expected=0fa6b2 Actual=0fa6b2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[118] Expected=e73cba Actual=e73cba PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[119] Expected=ae7b5a Actual=ae7b5a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[120] Expected=ed1a52 Actual=ed1a52 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[121] Expected=727e03 Actual=727e03 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[122] Expected=e93af6 Actual=e93af6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[123] Expected=e4a6ad Actual=e4a6ad PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[124] Expected=5ca4d3 Actual=5ca4d3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[125] Expected=305dd2 Actual=305dd2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[126] Expected=569d10 Actual=569d10 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[127] Expected=0d2aad Actual=0d2aad PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[128] Expected=04cda0 Actual=04cda0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[129] Expected=322506 Actual=322506 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[130] Expected=d0f7ec Actual=d0f7ec PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[131] Expected=7cf41b Actual=7cf41b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[132] Expected=ba3058 Actual=ba3058 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[133] Expected=5dd511 Actual=5dd511 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[134] Expected=1b80b3 Actual=1b80b3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[135] Expected=520560 Actual=520560 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[136] Expected=87227a Actual=87227a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[137] Expected=e1f623 Actual=e1f623 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[138] Expected=a0fd80 Actual=a0fd80 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[139] Expected=82ffb9 Actual=82ffb9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[140] Expected=e75c91 Actual=e75c91 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[141] Expected=154981 Actual=154981 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[142] Expected=61175c Actual=61175c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[143] Expected=fb8cf0 Actual=fb8cf0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[144] Expected=6b81e7 Actual=6b81e7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[145] Expected=2b835c Actual=2b835c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[146] Expected=1c2770 Actual=1c2770 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[147] Expected=e5686c Actual=e5686c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[148] Expected=6e1e04 Actual=6e1e04 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[149] Expected=d1bb0d Actual=d1bb0d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[150] Expected=20e69a Actual=20e69a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[151] Expected=45c403 Actual=45c403 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[152] Expected=654012 Actual=654012 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[153] Expected=57ad50 Actual=57ad50 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[154] Expected=6c27fe Actual=6c27fe PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[155] Expected=64292e Actual=64292e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[156] Expected=c9f60b Actual=c9f60b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[157] Expected=ad7826 Actual=ad7826 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[158] Expected=9cd7a0 Actual=9cd7a0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[159] Expected=e40396 Actual=e40396 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[160] Expected=28368b Actual=28368b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[161] Expected=8b7fd9 Actual=8b7fd9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[162] Expected=181498 Actual=181498 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[163] Expected=9bdada Actual=9bdada PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[164] Expected=357899 Actual=357899 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[165] Expected=6b7b76 Actual=6b7b76 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[166] Expected=b5b2cc Actual=b5b2cc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[167] Expected=7c1892 Actual=7c1892 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[168] Expected=60f2b7 Actual=60f2b7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[169] Expected=c8f6fc Actual=c8f6fc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[170] Expected=1c1064 Actual=1c1064 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[171] Expected=adffbb Actual=adffbb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[172] Expected=86acf6 Actual=86acf6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[173] Expected=01cc79 Actual=01cc79 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[174] Expected=d0db48 Actual=d0db48 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[175] Expected=1e0782 Actual=1e0782 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[176] Expected=de4db2 Actual=de4db2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[177] Expected=59b4a3 Actual=59b4a3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[178] Expected=48753a Actual=48753a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[179] Expected=c5e7f3 Actual=c5e7f3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[180] Expected=106cad Actual=106cad PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[181] Expected=fba5b0 Actual=fba5b0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[182] Expected=50eb4b Actual=50eb4b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[183] Expected=8ebd31 Actual=8ebd31 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[184] Expected=93e95d Actual=93e95d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[185] Expected=495787 Actual=495787 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[186] Expected=284529 Actual=284529 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[187] Expected=a4c899 Actual=a4c899 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[188] Expected=aa8b63 Actual=aa8b63 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[189] Expected=4e9d16 Actual=4e9d16 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[190] Expected=66955f Actual=66955f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[191] Expected=92b421 Actual=92b421 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[192] Expected=6094c9 Actual=6094c9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[193] Expected=7ddfb9 Actual=7ddfb9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[194] Expected=df6d10 Actual=df6d10 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[195] Expected=46e9b7 Actual=46e9b7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[196] Expected=4f5cf4 Actual=4f5cf4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[197] Expected=636157 Actual=636157 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[198] Expected=d013f2 Actual=d013f2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[199] Expected=a3379a Actual=a3379a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[200] Expected=31a9f8 Actual=31a9f8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[201] Expected=a410c3 Actual=a410c3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[202] Expected=1bf5f3 Actual=1bf5f3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[203] Expected=6c93d3 Actual=6c93d3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[204] Expected=75ad5f Actual=75ad5f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[205] Expected=94caa1 Actual=94caa1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[206] Expected=e564ad Actual=e564ad PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[207] Expected=688f5d Actual=688f5d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[208] Expected=a06563 Actual=a06563 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[209] Expected=e72b1a Actual=e72b1a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[210] Expected=2f5b3c Actual=2f5b3c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[211] Expected=4d0b5e Actual=4d0b5e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[212] Expected=627390 Actual=627390 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[213] Expected=6ce31d Actual=6ce31d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[214] Expected=b04431 Actual=b04431 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[215] Expected=a235ca Actual=a235ca PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[216] Expected=161152 Actual=161152 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[217] Expected=3bc617 Actual=3bc617 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[218] Expected=0bf936 Actual=0bf936 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[219] Expected=469f2a Actual=469f2a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[220] Expected=4989e5 Actual=4989e5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[221] Expected=e9b988 Actual=e9b988 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[222] Expected=03dc11 Actual=03dc11 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[223] Expected=d3ba17 Actual=d3ba17 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[224] Expected=2b8cdc Actual=2b8cdc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[225] Expected=ac3729 Actual=ac3729 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[226] Expected=7e08c8 Actual=7e08c8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[227] Expected=75717c Actual=75717c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[228] Expected=e551df Actual=e551df PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[229] Expected=429a5a Actual=429a5a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[230] Expected=904d8c Actual=904d8c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[231] Expected=832e13 Actual=832e13 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[232] Expected=554d09 Actual=554d09 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[233] Expected=4d718f Actual=4d718f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[234] Expected=513c5d Actual=513c5d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[235] Expected=cb658d Actual=cb658d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[236] Expected=c0e51e Actual=c0e51e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[237] Expected=e4f878 Actual=e4f878 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[238] Expected=f43a09 Actual=f43a09 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[239] Expected=c52afb Actual=c52afb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[240] Expected=aa7c0f Actual=aa7c0f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[241] Expected=5f7f6f Actual=5f7f6f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[242] Expected=debc2d Actual=debc2d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[243] Expected=85ac07 Actual=85ac07 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[244] Expected=be7a51 Actual=be7a51 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[245] Expected=f86150 Actual=f86150 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[246] Expected=b99590 Actual=b99590 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[247] Expected=f56d16 Actual=f56d16 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[248] Expected=949126 Actual=949126 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[249] Expected=289c6f Actual=289c6f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[250] Expected=7fe3b3 Actual=7fe3b3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[251] Expected=34b0f5 Actual=34b0f5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[252] Expected=950f2b Actual=950f2b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[253] Expected=03e655 Actual=03e655 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[254] Expected=69fe5f Actual=69fe5f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[255] Expected=fde3bc Actual=fde3bc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[256] Expected=b92995 Actual=b92995 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[257] Expected=faaab5 Actual=faaab5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[258] Expected=a6139a Actual=a6139a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[259] Expected=0db0e5 Actual=0db0e5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[260] Expected=5be26e Actual=5be26e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[261] Expected=cc3cec Actual=cc3cec PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[262] Expected=dc007d Actual=dc007d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[263] Expected=accb25 Actual=accb25 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[264] Expected=a80513 Actual=a80513 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[265] Expected=d664e3 Actual=d664e3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[266] Expected=062ad9 Actual=062ad9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[267] Expected=52629e Actual=52629e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[268] Expected=3c40b6 Actual=3c40b6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[269] Expected=a8781b Actual=a8781b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[270] Expected=cdacd9 Actual=cdacd9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[271] Expected=b013c0 Actual=b013c0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[272] Expected=ba8ab0 Actual=ba8ab0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[273] Expected=6d3c46 Actual=6d3c46 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[274] Expected=0aeff3 Actual=0aeff3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[275] Expected=36d5ab Actual=36d5ab PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[276] Expected=ac6012 Actual=ac6012 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[277] Expected=0e636d Actual=0e636d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[278] Expected=e53935 Actual=e53935 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[279] Expected=968920 Actual=968920 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[280] Expected=f80372 Actual=f80372 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[281] Expected=f34736 Actual=f34736 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[282] Expected=1b4bc3 Actual=1b4bc3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[283] Expected=e560d8 Actual=e560d8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[284] Expected=466b57 Actual=466b57 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[285] Expected=fd043a Actual=fd043a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[286] Expected=622035 Actual=622035 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[287] Expected=4f5ca9 Actual=4f5ca9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[288] Expected=146d67 Actual=146d67 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[289] Expected=e0c521 Actual=e0c521 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[290] Expected=1f73f5 Actual=1f73f5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[291] Expected=bcb33e Actual=bcb33e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[292] Expected=6c7273 Actual=6c7273 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[293] Expected=da503d Actual=da503d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[294] Expected=040fa0 Actual=040fa0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[295] Expected=62cc27 Actual=62cc27 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[296] Expected=3bc1cb Actual=3bc1cb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[297] Expected=ff9eed Actual=ff9eed PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[298] Expected=e000c0 Actual=e000c0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[299] Expected=71a0d1 Actual=71a0d1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[300] Expected=c093de Actual=c093de PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[301] Expected=f2e974 Actual=f2e974 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[302] Expected=11ae2e Actual=11ae2e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[303] Expected=ed4029 Actual=ed4029 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[304] Expected=8c377a Actual=8c377a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[305] Expected=b4d3cb Actual=b4d3cb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[306] Expected=4beff0 Actual=4beff0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[307] Expected=b752cf Actual=b752cf PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[308] Expected=e07a91 Actual=e07a91 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[309] Expected=1e5c5e Actual=1e5c5e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[310] Expected=1fcaaf Actual=1fcaaf PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[311] Expected=58dd50 Actual=58dd50 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[312] Expected=556ae0 Actual=556ae0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[313] Expected=4ab362 Actual=4ab362 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[314] Expected=db0fce Actual=db0fce PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[315] Expected=65436a Actual=65436a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[316] Expected=0bbb8d Actual=0bbb8d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[317] Expected=db40b0 Actual=db40b0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[318] Expected=3a645d Actual=3a645d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[319] Expected=28cec2 Actual=28cec2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[320] Expected=ffe85a Actual=ffe85a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[321] Expected=45e759 Actual=45e759 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[322] Expected=d95c50 Actual=d95c50 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[323] Expected=9c2770 Actual=9c2770 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[324] Expected=9ab3d5 Actual=9ab3d5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[325] Expected=578c94 Actual=578c94 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[326] Expected=abc612 Actual=abc612 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[327] Expected=19ee87 Actual=19ee87 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[328] Expected=802b09 Actual=802b09 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[329] Expected=38b0a9 Actual=38b0a9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[330] Expected=e15c36 Actual=e15c36 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[331] Expected=cb1c21 Actual=cb1c21 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[332] Expected=0c3aa7 Actual=0c3aa7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[333] Expected=b298e3 Actual=b298e3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[334] Expected=21f33c Actual=21f33c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[335] Expected=248062 Actual=248062 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[336] Expected=26c752 Actual=26c752 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[337] Expected=4e0c1f Actual=4e0c1f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[338] Expected=2ddfe6 Actual=2ddfe6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[339] Expected=14b19c Actual=14b19c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[340] Expected=228d5a Actual=228d5a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[341] Expected=92b54b Actual=92b54b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[342] Expected=fb9910 Actual=fb9910 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[343] Expected=05909a Actual=05909a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[344] Expected=603d1f Actual=603d1f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[345] Expected=ff3c34 Actual=ff3c34 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[346] Expected=c75c4f Actual=c75c4f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[347] Expected=6f76a9 Actual=6f76a9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[348] Expected=2bdc83 Actual=2bdc83 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[349] Expected=a60916 Actual=a60916 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[350] Expected=2a8296 Actual=2a8296 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[351] Expected=e1909f Actual=e1909f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[352] Expected=07e69c Actual=07e69c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[353] Expected=0dcd79 Actual=0dcd79 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[354] Expected=a17142 Actual=a17142 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[355] Expected=925fb7 Actual=925fb7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[356] Expected=b4eab8 Actual=b4eab8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[357] Expected=c6993b Actual=c6993b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[358] Expected=78d159 Actual=78d159 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[359] Expected=ab081a Actual=ab081a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[360] Expected=c4483a Actual=c4483a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[361] Expected=6f0a9d Actual=6f0a9d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[362] Expected=53b82f Actual=53b82f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[363] Expected=3ea114 Actual=3ea114 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[364] Expected=c5195f Actual=c5195f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[365] Expected=5df0e6 Actual=5df0e6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[366] Expected=e9f256 Actual=e9f256 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[367] Expected=b72501 Actual=b72501 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[368] Expected=5136f2 Actual=5136f2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[369] Expected=04a5ea Actual=04a5ea PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[370] Expected=e37fa1 Actual=e37fa1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[371] Expected=3080f2 Actual=3080f2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[372] Expected=fa8829 Actual=fa8829 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[373] Expected=167a65 Actual=167a65 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[374] Expected=963587 Actual=963587 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[375] Expected=91b044 Actual=91b044 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[376] Expected=82b60d Actual=82b60d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[377] Expected=33d4cb Actual=33d4cb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[378] Expected=4b89ba Actual=4b89ba PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[379] Expected=44e25e Actual=44e25e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[380] Expected=dc33f2 Actual=dc33f2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[381] Expected=42d652 Actual=42d652 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[382] Expected=4bdb8c Actual=4bdb8c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[383] Expected=e6b9ab Actual=e6b9ab PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[384] Expected=45c35c Actual=45c35c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[385] Expected=3e0c26 Actual=3e0c26 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[386] Expected=be0e88 Actual=be0e88 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[387] Expected=9b2ac4 Actual=9b2ac4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[388] Expected=a2f732 Actual=a2f732 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[389] Expected=55a340 Actual=55a340 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[390] Expected=a9d221 Actual=a9d221 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[391] Expected=a375fc Actual=a375fc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[392] Expected=c578dd Actual=c578dd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[393] Expected=458f05 Actual=458f05 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[394] Expected=a0062b Actual=a0062b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[395] Expected=ded739 Actual=ded739 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[396] Expected=011fbe Actual=011fbe PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[397] Expected=5ab893 Actual=5ab893 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[398] Expected=cfd6f2 Actual=cfd6f2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[399] Expected=f34947 Actual=f34947 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[400] Expected=00cb4e Actual=00cb4e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[401] Expected=eb9ecb Actual=eb9ecb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[402] Expected=af1a64 Actual=af1a64 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[403] Expected=7eae0b Actual=7eae0b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[404] Expected=e31dda Actual=e31dda PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[405] Expected=6cd1ff Actual=6cd1ff PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[406] Expected=23b7a3 Actual=23b7a3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[407] Expected=7e6c35 Actual=7e6c35 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[408] Expected=3d565e Actual=3d565e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[409] Expected=9930b6 Actual=9930b6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[410] Expected=0dbc3d Actual=0dbc3d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[411] Expected=dd48d5 Actual=dd48d5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[412] Expected=8cf432 Actual=8cf432 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[413] Expected=af3409 Actual=af3409 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[414] Expected=baa063 Actual=baa063 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[415] Expected=9f0a4d Actual=9f0a4d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[416] Expected=dcc0f1 Actual=dcc0f1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[417] Expected=7c72c0 Actual=7c72c0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[418] Expected=79d613 Actual=79d613 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[419] Expected=2ca682 Actual=2ca682 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[420] Expected=c593ec Actual=c593ec PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[421] Expected=6730bc Actual=6730bc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[422] Expected=1d3cd6 Actual=1d3cd6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[423] Expected=7f5b94 Actual=7f5b94 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[424] Expected=ee69a9 Actual=ee69a9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[425] Expected=c6b1b7 Actual=c6b1b7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[426] Expected=ff4cbb Actual=ff4cbb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[427] Expected=457fa2 Actual=457fa2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[428] Expected=81ccf3 Actual=81ccf3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[429] Expected=eba0e3 Actual=eba0e3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[430] Expected=d188be Actual=d188be PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[431] Expected=13c923 Actual=13c923 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[432] Expected=3e2713 Actual=3e2713 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[433] Expected=15969b Actual=15969b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[434] Expected=33504f Actual=33504f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[435] Expected=ffb413 Actual=ffb413 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[436] Expected=6ad294 Actual=6ad294 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[437] Expected=274b0a Actual=274b0a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[438] Expected=dd132d Actual=dd132d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[439] Expected=ec6449 Actual=ec6449 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[440] Expected=783e5a Actual=783e5a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[441] Expected=a475d1 Actual=a475d1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[442] Expected=26a331 Actual=26a331 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[443] Expected=a8ab45 Actual=a8ab45 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[444] Expected=53632a Actual=53632a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[445] Expected=3dede4 Actual=3dede4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[446] Expected=8c98ba Actual=8c98ba PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[447] Expected=7cd337 Actual=7cd337 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[448] Expected=424825 Actual=424825 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[449] Expected=f12744 Actual=f12744 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[450] Expected=352e70 Actual=352e70 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[451] Expected=a365e7 Actual=a365e7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[452] Expected=bd72e0 Actual=bd72e0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[453] Expected=59221e Actual=59221e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[454] Expected=b2b95d Actual=b2b95d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[455] Expected=1723f5 Actual=1723f5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[456] Expected=582a2d Actual=582a2d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[457] Expected=05e963 Actual=05e963 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[458] Expected=0857f8 Actual=0857f8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[459] Expected=ea2037 Actual=ea2037 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[460] Expected=5bf42e Actual=5bf42e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[461] Expected=156954 Actual=156954 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[462] Expected=360acc Actual=360acc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[463] Expected=3eaee6 Actual=3eaee6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[464] Expected=ba3571 Actual=ba3571 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[465] Expected=1168dd Actual=1168dd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[466] Expected=627264 Actual=627264 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[467] Expected=f0a234 Actual=f0a234 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[468] Expected=d2bf90 Actual=d2bf90 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[469] Expected=64ee1e Actual=64ee1e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[470] Expected=1763f1 Actual=1763f1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[471] Expected=f5668f Actual=f5668f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[472] Expected=c102b6 Actual=c102b6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[473] Expected=7e94ee Actual=7e94ee PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[474] Expected=a2ab79 Actual=a2ab79 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[475] Expected=fe318b Actual=fe318b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[476] Expected=0adf86 Actual=0adf86 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[477] Expected=abd568 Actual=abd568 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[478] Expected=e81926 Actual=e81926 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[479] Expected=89f3ff Actual=89f3ff PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[480] Expected=9a5181 Actual=9a5181 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[481] Expected=0eea8b Actual=0eea8b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[482] Expected=a6d294 Actual=a6d294 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[483] Expected=7e92b0 Actual=7e92b0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[484] Expected=8bf989 Actual=8bf989 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[485] Expected=e2e667 Actual=e2e667 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[486] Expected=0a1b82 Actual=0a1b82 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[487] Expected=9fdec8 Actual=9fdec8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[488] Expected=ff21ce Actual=ff21ce PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[489] Expected=7bb410 Actual=7bb410 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[490] Expected=403783 Actual=403783 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[491] Expected=ecec51 Actual=ecec51 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[492] Expected=7b165c Actual=7b165c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[493] Expected=572188 Actual=572188 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[494] Expected=874e4e Actual=874e4e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[495] Expected=b540f1 Actual=b540f1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[496] Expected=4cce6c Actual=4cce6c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[497] Expected=9c7b94 Actual=9c7b94 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[498] Expected=a1daa8 Actual=a1daa8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[499] Expected=a4d47c Actual=a4d47c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[500] Expected=ad4d4f Actual=ad4d4f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[501] Expected=002756 Actual=002756 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[502] Expected=e9b213 Actual=e9b213 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[503] Expected=3c28cb Actual=3c28cb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[504] Expected=c90e00 Actual=c90e00 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[505] Expected=f25851 Actual=f25851 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[506] Expected=93e9e7 Actual=93e9e7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[507] Expected=209c73 Actual=209c73 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[508] Expected=365fa4 Actual=365fa4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[509] Expected=9f1ea6 Actual=9f1ea6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[510] Expected=9dcf2b Actual=9dcf2b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[511] Expected=1d4228 Actual=1d4228 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[512] Expected=8e7dad Actual=8e7dad PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[513] Expected=67bed1 Actual=67bed1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[514] Expected=c97c5d Actual=c97c5d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[515] Expected=54693e Actual=54693e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[516] Expected=6e2b3c Actual=6e2b3c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[517] Expected=550a07 Actual=550a07 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[518] Expected=11251c Actual=11251c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[519] Expected=524b18 Actual=524b18 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[520] Expected=006f83 Actual=006f83 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[521] Expected=bec040 Actual=bec040 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[522] Expected=1ef7b1 Actual=1ef7b1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[523] Expected=b40029 Actual=b40029 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[524] Expected=b3e790 Actual=b3e790 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[525] Expected=aa2a0a Actual=aa2a0a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[526] Expected=e076f0 Actual=e076f0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[527] Expected=7fbe8b Actual=7fbe8b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[528] Expected=25e1d0 Actual=25e1d0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[529] Expected=bb098f Actual=bb098f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[530] Expected=ce7453 Actual=ce7453 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[531] Expected=85592a Actual=85592a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[532] Expected=076c54 Actual=076c54 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[533] Expected=f76c11 Actual=f76c11 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[534] Expected=0e7c4a Actual=0e7c4a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[535] Expected=a564fa Actual=a564fa PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[536] Expected=5b153f Actual=5b153f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[537] Expected=d28b1e Actual=d28b1e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[538] Expected=c81479 Actual=c81479 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[539] Expected=1c2c62 Actual=1c2c62 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[540] Expected=9f55db Actual=9f55db PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[541] Expected=1971bb Actual=1971bb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[542] Expected=3393cb Actual=3393cb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[543] Expected=40fd15 Actual=40fd15 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[544] Expected=84fcfe Actual=84fcfe PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[545] Expected=34ff87 Actual=34ff87 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[546] Expected=8008b8 Actual=8008b8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[547] Expected=a4d1e4 Actual=a4d1e4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[548] Expected=891dd3 Actual=891dd3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[549] Expected=e33991 Actual=e33991 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[550] Expected=8a4598 Actual=8a4598 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[551] Expected=50e3eb Actual=50e3eb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[552] Expected=43f995 Actual=43f995 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[553] Expected=d83d65 Actual=d83d65 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[554] Expected=1af52d Actual=1af52d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[555] Expected=5b9199 Actual=5b9199 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[556] Expected=d3378c Actual=d3378c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[557] Expected=5cb337 Actual=5cb337 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[558] Expected=797f4d Actual=797f4d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[559] Expected=e8d3db Actual=e8d3db PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[560] Expected=418430 Actual=418430 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[561] Expected=f2db29 Actual=f2db29 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[562] Expected=896007 Actual=896007 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[563] Expected=0dbbc4 Actual=0dbbc4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[564] Expected=f8607a Actual=f8607a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[565] Expected=b535e3 Actual=b535e3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[566] Expected=96e26b Actual=96e26b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[567] Expected=99b7ce Actual=99b7ce PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[568] Expected=071a49 Actual=071a49 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[569] Expected=20a52f Actual=20a52f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[570] Expected=e118b9 Actual=e118b9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[571] Expected=64efeb Actual=64efeb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[572] Expected=ee3dfb Actual=ee3dfb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[573] Expected=5e9e1f Actual=5e9e1f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[574] Expected=fd4d33 Actual=fd4d33 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[575] Expected=3d85f1 Actual=3d85f1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[576] Expected=1f9608 Actual=1f9608 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[577] Expected=b01016 Actual=b01016 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[578] Expected=c35909 Actual=c35909 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[579] Expected=39630f Actual=39630f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[580] Expected=ae8f70 Actual=ae8f70 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[581] Expected=a2eb27 Actual=a2eb27 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[582] Expected=e5a5f0 Actual=e5a5f0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[583] Expected=0e0f2c Actual=0e0f2c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[584] Expected=846fe0 Actual=846fe0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[585] Expected=7b7043 Actual=7b7043 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[586] Expected=7c32b2 Actual=7c32b2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[587] Expected=38573f Actual=38573f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[588] Expected=85ad71 Actual=85ad71 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[589] Expected=994177 Actual=994177 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[590] Expected=1a56f3 Actual=1a56f3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[591] Expected=a84664 Actual=a84664 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[592] Expected=fb79fc Actual=fb79fc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[593] Expected=ec2f45 Actual=ec2f45 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[594] Expected=961b28 Actual=961b28 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[595] Expected=d272f6 Actual=d272f6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[596] Expected=4bbfe2 Actual=4bbfe2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[597] Expected=ede96d Actual=ede96d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[598] Expected=8e9258 Actual=8e9258 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[599] Expected=313072 Actual=313072 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[600] Expected=011567 Actual=011567 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[601] Expected=74df5c Actual=74df5c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[602] Expected=11a961 Actual=11a961 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[603] Expected=3be12d Actual=3be12d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[604] Expected=6bfc68 Actual=6bfc68 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[605] Expected=886e3e Actual=886e3e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[606] Expected=cba86e Actual=cba86e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[607] Expected=338e25 Actual=338e25 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[608] Expected=bb275b Actual=bb275b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[609] Expected=f060d8 Actual=f060d8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[610] Expected=4c3ac8 Actual=4c3ac8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[611] Expected=3ae35e Actual=3ae35e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[612] Expected=acbe6a Actual=acbe6a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[613] Expected=3eb3a0 Actual=3eb3a0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[614] Expected=9beca8 Actual=9beca8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[615] Expected=ab2fee Actual=ab2fee PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[616] Expected=a89822 Actual=a89822 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[617] Expected=16a5a7 Actual=16a5a7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[618] Expected=cbb6a1 Actual=cbb6a1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[619] Expected=c8dd29 Actual=c8dd29 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[620] Expected=a8b16b Actual=a8b16b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[621] Expected=296dd3 Actual=296dd3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[622] Expected=ff9367 Actual=ff9367 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[623] Expected=c47bc3 Actual=c47bc3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[624] Expected=857c59 Actual=857c59 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[625] Expected=8dd4d0 Actual=8dd4d0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[626] Expected=2277d4 Actual=2277d4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[627] Expected=cec6b2 Actual=cec6b2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[628] Expected=7dd076 Actual=7dd076 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[629] Expected=faf4ee Actual=faf4ee PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[630] Expected=91ea13 Actual=91ea13 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[631] Expected=becd05 Actual=becd05 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[632] Expected=2333dc Actual=2333dc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[633] Expected=1a0096 Actual=1a0096 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[634] Expected=58fd33 Actual=58fd33 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[635] Expected=babe5d Actual=babe5d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[636] Expected=8171b8 Actual=8171b8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[637] Expected=b87067 Actual=b87067 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[638] Expected=fced79 Actual=fced79 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[639] Expected=c81822 Actual=c81822 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[640] Expected=0809ea Actual=0809ea PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[641] Expected=80dce5 Actual=80dce5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[642] Expected=a3445a Actual=a3445a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[643] Expected=08c905 Actual=08c905 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[644] Expected=55f769 Actual=55f769 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[645] Expected=a89698 Actual=a89698 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[646] Expected=45af22 Actual=45af22 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[647] Expected=f7232c Actual=f7232c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[648] Expected=788395 Actual=788395 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[649] Expected=d3c30b Actual=d3c30b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[650] Expected=e6bd81 Actual=e6bd81 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[651] Expected=ff764e Actual=ff764e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[652] Expected=58bba2 Actual=58bba2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[653] Expected=33d8aa Actual=33d8aa PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[654] Expected=04c660 Actual=04c660 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[655] Expected=abc1e7 Actual=abc1e7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[656] Expected=7a769a Actual=7a769a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[657] Expected=08c684 Actual=08c684 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[658] Expected=541be9 Actual=541be9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[659] Expected=323517 Actual=323517 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[660] Expected=05fc0a Actual=05fc0a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[661] Expected=86b92e Actual=86b92e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[662] Expected=d3c0d1 Actual=d3c0d1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[663] Expected=526915 Actual=526915 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[664] Expected=1ba9d9 Actual=1ba9d9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[665] Expected=c7ab60 Actual=c7ab60 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[666] Expected=cd976c Actual=cd976c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[667] Expected=1c38e0 Actual=1c38e0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[668] Expected=d7c102 Actual=d7c102 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[669] Expected=7a3ca2 Actual=7a3ca2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[670] Expected=dd7716 Actual=dd7716 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[671] Expected=c94d76 Actual=c94d76 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[672] Expected=5697f0 Actual=5697f0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[673] Expected=787470 Actual=787470 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[674] Expected=351439 Actual=351439 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[675] Expected=cc7ca2 Actual=cc7ca2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[676] Expected=1c98e4 Actual=1c98e4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[677] Expected=a8364a Actual=a8364a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[678] Expected=b4f763 Actual=b4f763 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[679] Expected=4989c2 Actual=4989c2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[680] Expected=06ce3d Actual=06ce3d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[681] Expected=48a0c1 Actual=48a0c1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[682] Expected=72a042 Actual=72a042 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[683] Expected=2fef21 Actual=2fef21 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[684] Expected=2902d6 Actual=2902d6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[685] Expected=5af837 Actual=5af837 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[686] Expected=a392ee Actual=a392ee PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[687] Expected=1cdb8c Actual=1cdb8c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[688] Expected=9ac483 Actual=9ac483 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[689] Expected=3c6bf3 Actual=3c6bf3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[690] Expected=410a5a Actual=410a5a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[691] Expected=269914 Actual=269914 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[692] Expected=6751d4 Actual=6751d4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[693] Expected=3efe73 Actual=3efe73 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[694] Expected=69a1d5 Actual=69a1d5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[695] Expected=d68cf6 Actual=d68cf6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[696] Expected=6cb794 Actual=6cb794 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[697] Expected=dbf4e1 Actual=dbf4e1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[698] Expected=79e454 Actual=79e454 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[699] Expected=fd0875 Actual=fd0875 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[700] Expected=e63b36 Actual=e63b36 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[701] Expected=f8246c Actual=f8246c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[702] Expected=36bb70 Actual=36bb70 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[703] Expected=fadc0b Actual=fadc0b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[704] Expected=29301d Actual=29301d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[705] Expected=a9bf06 Actual=a9bf06 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[706] Expected=9ee91b Actual=9ee91b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[707] Expected=a3e9f0 Actual=a3e9f0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[708] Expected=f0c2cb Actual=f0c2cb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[709] Expected=938475 Actual=938475 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[710] Expected=d38524 Actual=d38524 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[711] Expected=b323fb Actual=b323fb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[712] Expected=f26fda Actual=f26fda PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[713] Expected=16661b Actual=16661b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[714] Expected=3c90a1 Actual=3c90a1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[715] Expected=5adf62 Actual=5adf62 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[716] Expected=85bb0d Actual=85bb0d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[717] Expected=f863ca Actual=f863ca PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[718] Expected=98492e Actual=98492e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[719] Expected=68b07f Actual=68b07f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[720] Expected=48ac2d Actual=48ac2d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[721] Expected=ec5281 Actual=ec5281 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[722] Expected=6497a7 Actual=6497a7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[723] Expected=a3b867 Actual=a3b867 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[724] Expected=9d6271 Actual=9d6271 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[725] Expected=04660a Actual=04660a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[726] Expected=2fc8ff Actual=2fc8ff PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[727] Expected=80b65d Actual=80b65d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[728] Expected=5b3d31 Actual=5b3d31 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[729] Expected=a00e94 Actual=a00e94 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[730] Expected=a5d1d5 Actual=a5d1d5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[731] Expected=655bf4 Actual=655bf4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[732] Expected=4ad369 Actual=4ad369 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[733] Expected=e2dfcf Actual=e2dfcf PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[734] Expected=c21a83 Actual=c21a83 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[735] Expected=17e28b Actual=17e28b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[736] Expected=8cbadc Actual=8cbadc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[737] Expected=acee15 Actual=acee15 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[738] Expected=6aade4 Actual=6aade4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[739] Expected=561329 Actual=561329 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[740] Expected=d5332f Actual=d5332f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[741] Expected=f813e7 Actual=f813e7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[742] Expected=5e1768 Actual=5e1768 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[743] Expected=fa704c Actual=fa704c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[744] Expected=db2cd6 Actual=db2cd6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[745] Expected=a277cd Actual=a277cd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[746] Expected=305dbb Actual=305dbb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[747] Expected=f2f372 Actual=f2f372 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[748] Expected=515fc2 Actual=515fc2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[749] Expected=c72dbb Actual=c72dbb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[750] Expected=2afbb8 Actual=2afbb8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[751] Expected=0e31f4 Actual=0e31f4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[752] Expected=b2ce09 Actual=b2ce09 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[753] Expected=158dd5 Actual=158dd5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[754] Expected=d3b01d Actual=d3b01d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[755] Expected=748eb2 Actual=748eb2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[756] Expected=378f6a Actual=378f6a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[757] Expected=bd880a Actual=bd880a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[758] Expected=22b5b3 Actual=22b5b3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[759] Expected=38b862 Actual=38b862 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[760] Expected=7ddb4d Actual=7ddb4d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[761] Expected=75daee Actual=75daee PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[762] Expected=1905a0 Actual=1905a0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[763] Expected=6a533e Actual=6a533e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[764] Expected=3ed2dc Actual=3ed2dc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[765] Expected=ca4691 Actual=ca4691 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[766] Expected=9968a9 Actual=9968a9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[767] Expected=bad199 Actual=bad199 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[768] Expected=851dee Actual=851dee PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[769] Expected=17ba85 Actual=17ba85 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[770] Expected=3e4f11 Actual=3e4f11 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[771] Expected=29422e Actual=29422e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[772] Expected=18c3a4 Actual=18c3a4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[773] Expected=5da39e Actual=5da39e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[774] Expected=bff365 Actual=bff365 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[775] Expected=ac1b20 Actual=ac1b20 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[776] Expected=54939e Actual=54939e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[777] Expected=c8e344 Actual=c8e344 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[778] Expected=b62945 Actual=b62945 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[779] Expected=5e870e Actual=5e870e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[780] Expected=b1ed16 Actual=b1ed16 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[781] Expected=302efc Actual=302efc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[782] Expected=8ad1d0 Actual=8ad1d0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[783] Expected=afd38e Actual=afd38e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[784] Expected=930d86 Actual=930d86 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[785] Expected=96ea47 Actual=96ea47 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[786] Expected=00680a Actual=00680a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[787] Expected=b0555d Actual=b0555d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[788] Expected=4ef77f Actual=4ef77f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[789] Expected=0a3d52 Actual=0a3d52 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[790] Expected=f7c170 Actual=f7c170 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[791] Expected=a4e474 Actual=a4e474 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[792] Expected=d86314 Actual=d86314 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[793] Expected=7e9104 Actual=7e9104 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[794] Expected=e22bd0 Actual=e22bd0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[795] Expected=f02f5e Actual=f02f5e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[796] Expected=fdfea3 Actual=fdfea3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[797] Expected=4ba207 Actual=4ba207 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[798] Expected=feafcf Actual=feafcf PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[799] Expected=16c57e Actual=16c57e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[800] Expected=840b7f Actual=840b7f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[801] Expected=d916d8 Actual=d916d8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[802] Expected=422228 Actual=422228 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[803] Expected=9e36b5 Actual=9e36b5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[804] Expected=770eaa Actual=770eaa PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[805] Expected=152058 Actual=152058 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[806] Expected=1c9260 Actual=1c9260 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[807] Expected=38447e Actual=38447e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[808] Expected=22c730 Actual=22c730 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[809] Expected=2ba9a7 Actual=2ba9a7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[810] Expected=7569e3 Actual=7569e3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[811] Expected=6df083 Actual=6df083 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[812] Expected=cac239 Actual=cac239 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[813] Expected=80bbf8 Actual=80bbf8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[814] Expected=66ea95 Actual=66ea95 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[815] Expected=b9704e Actual=b9704e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[816] Expected=dd561b Actual=dd561b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[817] Expected=7bb9a5 Actual=7bb9a5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[818] Expected=64331d Actual=64331d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[819] Expected=3556ae Actual=3556ae PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[820] Expected=d87f78 Actual=d87f78 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[821] Expected=fc1ea5 Actual=fc1ea5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[822] Expected=ff221d Actual=ff221d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[823] Expected=7c9662 Actual=7c9662 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[824] Expected=d5aa7e Actual=d5aa7e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[825] Expected=8ad3cf Actual=8ad3cf PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[826] Expected=31252d Actual=31252d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[827] Expected=53763a Actual=53763a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[828] Expected=a50e73 Actual=a50e73 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[829] Expected=0e265d Actual=0e265d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[830] Expected=b73624 Actual=b73624 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[831] Expected=0a5c12 Actual=0a5c12 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[832] Expected=2b487f Actual=2b487f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[833] Expected=f2b444 Actual=f2b444 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[834] Expected=f7957f Actual=f7957f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[835] Expected=cf993a Actual=cf993a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[836] Expected=8d17c6 Actual=8d17c6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[837] Expected=49f962 Actual=49f962 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[838] Expected=137df1 Actual=137df1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[839] Expected=40201b Actual=40201b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[840] Expected=65738b Actual=65738b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[841] Expected=073b73 Actual=073b73 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[842] Expected=c7958a Actual=c7958a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[843] Expected=6f661f Actual=6f661f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[844] Expected=d5a45c Actual=d5a45c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[845] Expected=59d303 Actual=59d303 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[846] Expected=bd9cb7 Actual=bd9cb7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[847] Expected=d9ed62 Actual=d9ed62 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[848] Expected=775766 Actual=775766 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[849] Expected=e41e91 Actual=e41e91 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[850] Expected=cfebe4 Actual=cfebe4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[851] Expected=2ca6bf Actual=2ca6bf PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[852] Expected=d882a6 Actual=d882a6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[853] Expected=a758b1 Actual=a758b1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[854] Expected=9e422b Actual=9e422b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[855] Expected=aaff1e Actual=aaff1e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[856] Expected=65633a Actual=65633a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[857] Expected=ddde6d Actual=ddde6d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[858] Expected=ca638c Actual=ca638c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[859] Expected=40a2a6 Actual=40a2a6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[860] Expected=8716d6 Actual=8716d6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[861] Expected=34d1eb Actual=34d1eb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[862] Expected=6fdc90 Actual=6fdc90 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[863] Expected=30b807 Actual=30b807 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[864] Expected=185365 Actual=185365 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[865] Expected=2c5bb1 Actual=2c5bb1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[866] Expected=7ce8a9 Actual=7ce8a9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[867] Expected=facd5b Actual=facd5b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[868] Expected=f0394a Actual=f0394a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[869] Expected=69adba Actual=69adba PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[870] Expected=dd498f Actual=dd498f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[871] Expected=db3cc6 Actual=db3cc6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[872] Expected=1e35fc Actual=1e35fc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[873] Expected=8c9d56 Actual=8c9d56 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[874] Expected=3975a7 Actual=3975a7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[875] Expected=317b4c Actual=317b4c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[876] Expected=46b335 Actual=46b335 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[877] Expected=4f9a84 Actual=4f9a84 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[878] Expected=66599f Actual=66599f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[879] Expected=c8682f Actual=c8682f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[880] Expected=3aa6db Actual=3aa6db PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[881] Expected=2a7c3a Actual=2a7c3a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[882] Expected=6cf3de Actual=6cf3de PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[883] Expected=bebf94 Actual=bebf94 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[884] Expected=d81077 Actual=d81077 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[885] Expected=934c84 Actual=934c84 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[886] Expected=bac40c Actual=bac40c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[887] Expected=8d251f Actual=8d251f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[888] Expected=426ab9 Actual=426ab9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[889] Expected=595c79 Actual=595c79 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[890] Expected=2905d5 Actual=2905d5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[891] Expected=874e95 Actual=874e95 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[892] Expected=814514 Actual=814514 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[893] Expected=675082 Actual=675082 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[894] Expected=01cfec Actual=01cfec PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[895] Expected=03eea0 Actual=03eea0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[896] Expected=b42e5b Actual=b42e5b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[897] Expected=ba4468 Actual=ba4468 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[898] Expected=7d067c Actual=7d067c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[899] Expected=a324c3 Actual=a324c3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[900] Expected=eeb9a8 Actual=eeb9a8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[901] Expected=d4198f Actual=d4198f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[902] Expected=1c0a88 Actual=1c0a88 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[903] Expected=7a7e81 Actual=7a7e81 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[904] Expected=af7782 Actual=af7782 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[905] Expected=9d83d5 Actual=9d83d5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[906] Expected=48070e Actual=48070e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[907] Expected=622dff Actual=622dff PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[908] Expected=d5c3c8 Actual=d5c3c8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[909] Expected=cda960 Actual=cda960 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[910] Expected=ee38bb Actual=ee38bb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[911] Expected=73554e Actual=73554e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[912] Expected=91264f Actual=91264f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[913] Expected=e46455 Actual=e46455 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[914] Expected=638f11 Actual=638f11 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[915] Expected=46ec15 Actual=46ec15 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[916] Expected=5bafca Actual=5bafca PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[917] Expected=66f086 Actual=66f086 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[918] Expected=292ff7 Actual=292ff7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[919] Expected=fcbd16 Actual=fcbd16 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[920] Expected=f287d0 Actual=f287d0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[921] Expected=702e8a Actual=702e8a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[922] Expected=81d2c4 Actual=81d2c4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[923] Expected=363064 Actual=363064 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[924] Expected=12f2bd Actual=12f2bd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[925] Expected=1a5a18 Actual=1a5a18 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[926] Expected=cad030 Actual=cad030 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[927] Expected=0fda21 Actual=0fda21 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[928] Expected=804b85 Actual=804b85 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[929] Expected=5efd66 Actual=5efd66 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[930] Expected=8f0179 Actual=8f0179 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[931] Expected=138f60 Actual=138f60 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[932] Expected=a69f06 Actual=a69f06 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[933] Expected=865a2e Actual=865a2e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[934] Expected=80b895 Actual=80b895 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[935] Expected=5a9532 Actual=5a9532 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[936] Expected=bd8982 Actual=bd8982 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[937] Expected=b4a2b4 Actual=b4a2b4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[938] Expected=468d56 Actual=468d56 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[939] Expected=a6b7d9 Actual=a6b7d9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[940] Expected=0cdd57 Actual=0cdd57 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[941] Expected=1f368b Actual=1f368b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[942] Expected=58ff78 Actual=58ff78 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[943] Expected=0b316f Actual=0b316f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[944] Expected=fad315 Actual=fad315 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[945] Expected=4d055d Actual=4d055d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[946] Expected=3f645f Actual=3f645f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[947] Expected=fc40ae Actual=fc40ae PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[948] Expected=87d6a3 Actual=87d6a3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[949] Expected=14ec94 Actual=14ec94 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[950] Expected=191826 Actual=191826 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[951] Expected=50dc64 Actual=50dc64 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[952] Expected=e801bc Actual=e801bc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[953] Expected=e2dfbd Actual=e2dfbd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[954] Expected=18383e Actual=18383e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[955] Expected=13a462 Actual=13a462 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[956] Expected=a00487 Actual=a00487 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[957] Expected=40a42f Actual=40a42f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[958] Expected=c8bb9e Actual=c8bb9e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[959] Expected=94f3ba Actual=94f3ba PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[960] Expected=1f91a4 Actual=1f91a4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[961] Expected=17cf05 Actual=17cf05 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[962] Expected=097c90 Actual=097c90 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[963] Expected=eec184 Actual=eec184 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[964] Expected=fa34c7 Actual=fa34c7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[965] Expected=c17b68 Actual=c17b68 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[966] Expected=12087e Actual=12087e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[967] Expected=2ae3df Actual=2ae3df PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[968] Expected=6ed8e0 Actual=6ed8e0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[969] Expected=eb4e28 Actual=eb4e28 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[970] Expected=aac1fd Actual=aac1fd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[971] Expected=4755fd Actual=4755fd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[972] Expected=94f91c Actual=94f91c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[973] Expected=4504be Actual=4504be PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[974] Expected=5c9dc0 Actual=5c9dc0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[975] Expected=276b6e Actual=276b6e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[976] Expected=f4aa17 Actual=f4aa17 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[977] Expected=b88a6b Actual=b88a6b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[978] Expected=cb8144 Actual=cb8144 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[979] Expected=c8b924 Actual=c8b924 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[980] Expected=ad2710 Actual=ad2710 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[981] Expected=77f158 Actual=77f158 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[982] Expected=149068 Actual=149068 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[983] Expected=bda560 Actual=bda560 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[984] Expected=7375df Actual=7375df PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[985] Expected=4a3a7a Actual=4a3a7a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[986] Expected=aba0bf Actual=aba0bf PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[987] Expected=57b725 Actual=57b725 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[988] Expected=42330d Actual=42330d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[989] Expected=3f3c02 Actual=3f3c02 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[990] Expected=df1d78 Actual=df1d78 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[991] Expected=0949fa Actual=0949fa PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[992] Expected=77d331 Actual=77d331 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[993] Expected=0cec85 Actual=0cec85 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[994] Expected=411d51 Actual=411d51 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[995] Expected=0ef0a0 Actual=0ef0a0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[996] Expected=4095b9 Actual=4095b9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[997] Expected=11512c Actual=11512c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[998] Expected=86168a Actual=86168a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[999] Expected=b42f7f Actual=b42f7f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1000] Expected=5aee4d Actual=5aee4d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1001] Expected=13fb7e Actual=13fb7e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1002] Expected=8eeef9 Actual=8eeef9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1003] Expected=93205f Actual=93205f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1004] Expected=44688e Actual=44688e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1005] Expected=83d566 Actual=83d566 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1006] Expected=dd98ed Actual=dd98ed PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1007] Expected=ea0b33 Actual=ea0b33 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1008] Expected=5f71ba Actual=5f71ba PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1009] Expected=e2f67b Actual=e2f67b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1010] Expected=816b4d Actual=816b4d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1011] Expected=e61af5 Actual=e61af5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1012] Expected=37be57 Actual=37be57 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1013] Expected=d51360 Actual=d51360 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1014] Expected=cb663e Actual=cb663e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1015] Expected=a2e4d2 Actual=a2e4d2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1016] Expected=98bbc9 Actual=98bbc9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1017] Expected=3e7e3e Actual=3e7e3e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1018] Expected=bf4cb9 Actual=bf4cb9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1019] Expected=8624d7 Actual=8624d7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1020] Expected=0f5ca1 Actual=0f5ca1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1021] Expected=4a485e Actual=4a485e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1022] Expected=d748b5 Actual=d748b5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1023] Expected=c11cca Actual=c11cca PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1024] Expected=d6e484 Actual=d6e484 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1025] Expected=95cafa Actual=95cafa PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1026] Expected=157b3c Actual=157b3c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1027] Expected=765d50 Actual=765d50 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1028] Expected=a8d8d7 Actual=a8d8d7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1029] Expected=84d50a Actual=84d50a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1030] Expected=c287e2 Actual=c287e2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1031] Expected=4869bc Actual=4869bc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1032] Expected=84e21f Actual=84e21f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1033] Expected=b98c09 Actual=b98c09 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1034] Expected=4bdbfc Actual=4bdbfc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1035] Expected=5b827a Actual=5b827a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1036] Expected=6c5042 Actual=6c5042 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1037] Expected=cfe21a Actual=cfe21a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1038] Expected=a2833c Actual=a2833c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1039] Expected=2c807e Actual=2c807e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1040] Expected=6d4df4 Actual=6d4df4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1041] Expected=24220f Actual=24220f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1042] Expected=87c3f1 Actual=87c3f1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1043] Expected=61e84a Actual=61e84a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1044] Expected=89e866 Actual=89e866 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1045] Expected=88fc43 Actual=88fc43 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1046] Expected=c8b0f7 Actual=c8b0f7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1047] Expected=c90891 Actual=c90891 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1048] Expected=4c49f5 Actual=4c49f5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1049] Expected=ca922a Actual=ca922a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1050] Expected=2a3349 Actual=2a3349 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1051] Expected=43ad06 Actual=43ad06 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1052] Expected=659da4 Actual=659da4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1053] Expected=66aa42 Actual=66aa42 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1054] Expected=048899 Actual=048899 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1055] Expected=85a3d5 Actual=85a3d5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1056] Expected=891172 Actual=891172 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1057] Expected=15eb1e Actual=15eb1e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1058] Expected=7aaf08 Actual=7aaf08 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1059] Expected=44c4f9 Actual=44c4f9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1060] Expected=007207 Actual=007207 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1061] Expected=6a3665 Actual=6a3665 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1062] Expected=430ac3 Actual=430ac3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1063] Expected=6b887e Actual=6b887e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1064] Expected=6c6feb Actual=6c6feb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1065] Expected=9a8077 Actual=9a8077 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1066] Expected=68feb6 Actual=68feb6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1067] Expected=3fe0e3 Actual=3fe0e3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1068] Expected=ea14c3 Actual=ea14c3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1069] Expected=6dc8e3 Actual=6dc8e3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1070] Expected=2fcc36 Actual=2fcc36 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1071] Expected=fc9dae Actual=fc9dae PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1072] Expected=0bb678 Actual=0bb678 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1073] Expected=b1167b Actual=b1167b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1074] Expected=d116ad Actual=d116ad PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1075] Expected=b8f2be Actual=b8f2be PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1076] Expected=ad8a0d Actual=ad8a0d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1077] Expected=7962a2 Actual=7962a2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1078] Expected=a7096c Actual=a7096c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1079] Expected=b8fe29 Actual=b8fe29 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1080] Expected=497d6c Actual=497d6c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1081] Expected=754467 Actual=754467 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1082] Expected=e6dc49 Actual=e6dc49 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1083] Expected=e6064a Actual=e6064a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1084] Expected=03dfb2 Actual=03dfb2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1085] Expected=478bf9 Actual=478bf9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1086] Expected=228916 Actual=228916 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1087] Expected=ea567b Actual=ea567b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1088] Expected=ed2549 Actual=ed2549 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1089] Expected=94f73a Actual=94f73a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1090] Expected=70a7bf Actual=70a7bf PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1091] Expected=459161 Actual=459161 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1092] Expected=00e8a6 Actual=00e8a6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1093] Expected=b87beb Actual=b87beb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1094] Expected=3aaab0 Actual=3aaab0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1095] Expected=f681c7 Actual=f681c7 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1096] Expected=b7555d Actual=b7555d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1097] Expected=49c902 Actual=49c902 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1098] Expected=1e5506 Actual=1e5506 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1099] Expected=8e243d Actual=8e243d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1100] Expected=8e53e4 Actual=8e53e4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1101] Expected=ec0212 Actual=ec0212 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1102] Expected=e51930 Actual=e51930 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1103] Expected=365966 Actual=365966 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1104] Expected=cbdf83 Actual=cbdf83 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1105] Expected=c17cab Actual=c17cab PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1106] Expected=5718ea Actual=5718ea PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1107] Expected=6e2775 Actual=6e2775 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1108] Expected=b3fcf0 Actual=b3fcf0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1109] Expected=8a057f Actual=8a057f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1110] Expected=4b090a Actual=4b090a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1111] Expected=5a2720 Actual=5a2720 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1112] Expected=b79042 Actual=b79042 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1113] Expected=376e2b Actual=376e2b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1114] Expected=949f40 Actual=949f40 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1115] Expected=e66c25 Actual=e66c25 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1116] Expected=b8e922 Actual=b8e922 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1117] Expected=a790b5 Actual=a790b5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1118] Expected=71015a Actual=71015a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1119] Expected=d24288 Actual=d24288 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1120] Expected=ba4b59 Actual=ba4b59 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1121] Expected=a42e7d Actual=a42e7d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1122] Expected=e7c796 Actual=e7c796 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1123] Expected=396c49 Actual=396c49 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1124] Expected=e50a37 Actual=e50a37 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1125] Expected=3f1a00 Actual=3f1a00 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1126] Expected=a8a4d9 Actual=a8a4d9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1127] Expected=e0ef23 Actual=e0ef23 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1128] Expected=354855 Actual=354855 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1129] Expected=eef999 Actual=eef999 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1130] Expected=673bdb Actual=673bdb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1131] Expected=8743b9 Actual=8743b9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1132] Expected=44fd8f Actual=44fd8f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1133] Expected=6c44e9 Actual=6c44e9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1134] Expected=5235f3 Actual=5235f3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1135] Expected=63d3d3 Actual=63d3d3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1136] Expected=909eb0 Actual=909eb0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1137] Expected=afcf7a Actual=afcf7a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1138] Expected=de1f12 Actual=de1f12 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1139] Expected=85880a Actual=85880a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1140] Expected=55816a Actual=55816a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1141] Expected=1b69fc Actual=1b69fc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1142] Expected=bac6b0 Actual=bac6b0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1143] Expected=3939c0 Actual=3939c0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1144] Expected=b5cc60 Actual=b5cc60 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1145] Expected=8834c5 Actual=8834c5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1146] Expected=8e8cbb Actual=8e8cbb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1147] Expected=ad2cdc Actual=ad2cdc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1148] Expected=73204d Actual=73204d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1149] Expected=963151 Actual=963151 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1150] Expected=8c24bd Actual=8c24bd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1151] Expected=bc8722 Actual=bc8722 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1152] Expected=48c5d5 Actual=48c5d5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1153] Expected=35d2d9 Actual=35d2d9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1154] Expected=c86096 Actual=c86096 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1155] Expected=5af154 Actual=5af154 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1156] Expected=62e0e9 Actual=62e0e9 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1157] Expected=740396 Actual=740396 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1158] Expected=98e0aa Actual=98e0aa PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1159] Expected=1d14f4 Actual=1d14f4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1160] Expected=e5368b Actual=e5368b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1161] Expected=52eaa8 Actual=52eaa8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1162] Expected=1140e6 Actual=1140e6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1163] Expected=66376c Actual=66376c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1164] Expected=c11ede Actual=c11ede PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1165] Expected=5b1520 Actual=5b1520 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1166] Expected=fef307 Actual=fef307 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1167] Expected=5dfcf2 Actual=5dfcf2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1168] Expected=1f0a18 Actual=1f0a18 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1169] Expected=7f270c Actual=7f270c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1170] Expected=6467cd Actual=6467cd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1171] Expected=0ba8f1 Actual=0ba8f1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1172] Expected=654157 Actual=654157 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1173] Expected=466f5d Actual=466f5d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1174] Expected=710d1a Actual=710d1a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1175] Expected=a2ff0a Actual=a2ff0a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1176] Expected=6934d8 Actual=6934d8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1177] Expected=2c8c05 Actual=2c8c05 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1178] Expected=c2d784 Actual=c2d784 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1179] Expected=508718 Actual=508718 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1180] Expected=422cfa Actual=422cfa PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1181] Expected=88ac5b Actual=88ac5b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1182] Expected=58ae42 Actual=58ae42 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1183] Expected=2f7c0c Actual=2f7c0c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1184] Expected=6755b0 Actual=6755b0 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1185] Expected=9952e8 Actual=9952e8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1186] Expected=57bad1 Actual=57bad1 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1187] Expected=3edec3 Actual=3edec3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1188] Expected=8d6579 Actual=8d6579 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1189] Expected=b3dabc Actual=b3dabc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1190] Expected=3cb02a Actual=3cb02a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1191] Expected=d98b34 Actual=d98b34 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1192] Expected=15e5b3 Actual=15e5b3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1193] Expected=cc3a71 Actual=cc3a71 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1194] Expected=5fb85e Actual=5fb85e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1195] Expected=0acd46 Actual=0acd46 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1196] Expected=4dee50 Actual=4dee50 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1197] Expected=c5b229 Actual=c5b229 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1198] Expected=6c6b31 Actual=6c6b31 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1199] Expected=945f13 Actual=945f13 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1200] Expected=dcfc4d Actual=dcfc4d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1201] Expected=794a3b Actual=794a3b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1202] Expected=d29aa5 Actual=d29aa5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1203] Expected=afe012 Actual=afe012 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1204] Expected=3f59a2 Actual=3f59a2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1205] Expected=19e742 Actual=19e742 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1206] Expected=003038 Actual=003038 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1207] Expected=475f13 Actual=475f13 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1208] Expected=1ada26 Actual=1ada26 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1209] Expected=02000d Actual=02000d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1210] Expected=d920d2 Actual=d920d2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1211] Expected=7a4339 Actual=7a4339 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1212] Expected=bd3964 Actual=bd3964 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1213] Expected=d81c41 Actual=d81c41 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1214] Expected=a798bc Actual=a798bc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1215] Expected=8057aa Actual=8057aa PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1216] Expected=c0e57d Actual=c0e57d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1217] Expected=39a981 Actual=39a981 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1218] Expected=065ce8 Actual=065ce8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1219] Expected=bc1f27 Actual=bc1f27 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1220] Expected=d04d44 Actual=d04d44 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1221] Expected=a2285d Actual=a2285d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1222] Expected=6d3b6a Actual=6d3b6a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1223] Expected=38eef3 Actual=38eef3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1224] Expected=f61464 Actual=f61464 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1225] Expected=2fb466 Actual=2fb466 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1226] Expected=3eab3a Actual=3eab3a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1227] Expected=da2035 Actual=da2035 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1228] Expected=f46d0b Actual=f46d0b PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1229] Expected=11f0bc Actual=11f0bc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1230] Expected=22727d Actual=22727d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1231] Expected=82538e Actual=82538e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1232] Expected=527991 Actual=527991 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1233] Expected=df9174 Actual=df9174 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1234] Expected=446331 Actual=446331 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1235] Expected=16a868 Actual=16a868 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1236] Expected=799719 Actual=799719 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1237] Expected=53b4bb Actual=53b4bb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1238] Expected=02ed3d Actual=02ed3d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1239] Expected=f03e47 Actual=f03e47 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1240] Expected=30b82f Actual=30b82f PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1241] Expected=fbd07e Actual=fbd07e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1242] Expected=3e792e Actual=3e792e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1243] Expected=831fd3 Actual=831fd3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1244] Expected=589f76 Actual=589f76 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1245] Expected=5d96fd Actual=5d96fd PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1246] Expected=5baca5 Actual=5baca5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1247] Expected=c1834a Actual=c1834a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1248] Expected=941e12 Actual=941e12 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1249] Expected=70be82 Actual=70be82 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1250] Expected=4ae342 Actual=4ae342 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1251] Expected=4d8026 Actual=4d8026 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1252] Expected=cf20ce Actual=cf20ce PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1253] Expected=5cb2e6 Actual=5cb2e6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1254] Expected=a97a9c Actual=a97a9c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1255] Expected=537f3d Actual=537f3d PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1256] Expected=1e48b5 Actual=1e48b5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1257] Expected=9d5fb5 Actual=9d5fb5 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1258] Expected=9b02c8 Actual=9b02c8 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1259] Expected=e43d46 Actual=e43d46 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1260] Expected=6d85d3 Actual=6d85d3 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1261] Expected=30cb82 Actual=30cb82 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1262] Expected=e116fc Actual=e116fc PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1263] Expected=ef9469 Actual=ef9469 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1264] Expected=bd8d85 Actual=bd8d85 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1265] Expected=5b694a Actual=5b694a PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1266] Expected=f4d2ca Actual=f4d2ca PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1267] Expected=6f73f2 Actual=6f73f2 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1268] Expected=59dfa4 Actual=59dfa4 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1269] Expected=81d70e Actual=81d70e PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1270] Expected=f8eb17 Actual=f8eb17 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1271] Expected=2db051 Actual=2db051 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1272] Expected=49fc0c Actual=49fc0c PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1273] Expected=4c1282 Actual=4c1282 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1274] Expected=b03bdb Actual=b03bdb PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1275] Expected=7cf300 Actual=7cf300 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1276] Expected=1b4ade Actual=1b4ade PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1277] Expected=8490a6 Actual=8490a6 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1278] Expected=829a98 Actual=829a98 PASS
+UVM_INFO MY_scoreboard.sv(285) @ 17067: uvm_test_top.env.sbd [PIXEL_CHECK] pixel[1279] Expected=e0bbd9 Actual=e0bbd9 PASS
+UVM_INFO MY_scoreboard.sv(307) @ 17067: uvm_test_top.env.sbd [SB] TOTAL PIXELS : 1280
+UVM_INFO MY_scoreboard.sv(312) @ 17067: uvm_test_top.env.sbd [SB] PASS COUNT   : 1280
+UVM_INFO MY_scoreboard.sv(317) @ 17067: uvm_test_top.env.sbd [SB] FAIL COUNT   : 0
+UVM_INFO MY_scoreboard.sv(326) @ 17067: uvm_test_top.env.sbd [SB] RESULT       : PASS
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_objection.svh(1276) @ 18215: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+ahb coverage = 53.33%
+====================================
+DC COVERAGE = 10.00%
+====================================
+PPI coverage = 100.00%
+UVM_INFO /apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_report_server.svh(904) @ 18215: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO : 1305
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[AHB_MON]    10
+[DC_COV]     1
+[DC_MON]     1
+[PIXEL_CHECK]  1280
+[RNTST]     1
+[SB]     8
+[SB_DC]     2
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+
+$finish called from file "/apps/vcsmx/vcs/X-2025.06-SP1//etc/uvm-1.2/src/base/uvm_root.svh", line 532.
+$finish at simulation time                18215
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 18215 ns
+CPU Time:      1.010 seconds;       Data structure size:   0.5Mb
+Tue Oct  6 03:12:28 2026
+Finding VCD file...
+./dump.vcd
+[2026-10-06 07:12:29 UTC] Opening EPWave...
